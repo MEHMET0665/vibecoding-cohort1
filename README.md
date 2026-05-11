@@ -20,6 +20,10 @@ komutunu çalıştırarak gerekli tüm bağımlılıkları yükleyebilirsiniz.
 
 Proje, arka planda `app.py`, `agent.py`, `asistan.py` ve `llm.py` Python dosyaları ve ön yüzde `frontend` klasöründeki HTML dosyaları ile çalışmaktadır. Her bir bileşen spesifik işlemler için tasarlanmıştır.
 
+## Agent Tools
+
+The agent can use the `get_datetime` tool to read the backend server's current date and time. The tool returns a JSON-style response with `current_datetime`, `date`, and `time` fields.
+
 ## Katkıda Bulunma
 
 Katkıda bulunmak isteyenler standart bir pull request süreci üzerinden projeye katkıda bulunabilirler.
